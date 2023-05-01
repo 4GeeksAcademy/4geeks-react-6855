@@ -6,88 +6,161 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 	return (
-		<><nav className="navbar navbar-expand-lg navbar-light bg-secondary bg-subtle">
-			<div className="container">
-				<a className="navbar-brand" href="#">
-					Start Bootstrap
-				</a>
-				<button
-					className="navbar-toggler d-lg-none"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNavDropdown"
-					aria-controls="navbarNavDropdown"
+		<> <div>
+		<nav className="navbar navbar-expand-lg navbar-light bg-secondary bg-subtle">
+		  <div className="container">
+			<a className="navbar-brand" href="#">
+			  Start Bootstrap
+			</a>
+			<button
+			  className="navbar-toggler d-lg-none"
+			  type="button"
+			  data-bs-toggle="collapse"
+			  data-bs-target="#navbarNavDropdown"
+			  aria-controls="navbarNavDropdown"
+			  aria-expanded="false"
+			  aria-label="Toggle navigation"
+			>
+			  <span className="navbar-toggler-icon"></span>
+			</button>
+			<div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+			  <ul className="navbar-nav">
+				<li className="nav-item active">
+				  <a className="nav-link" href="#">
+					Home
+				  </a>
+				</li>
+				<li className="nav-item">
+				  <a className="nav-link" href="#">
+					About
+				  </a>
+				</li>
+				<li className="nav-item">
+				  <a className="nav-link" href="#">
+					Services
+				  </a>
+				</li>
+				<li className="nav-item">
+				  <a className="nav-link" href="#">
+					Contact
+				  </a>
+				</li>
+				<li className="nav-item dropdown d-lg-none">
+				  <a
+					className="nav-link dropdown-toggle"
+					href="#"
+					id="navbarDropdownMenuLink"
+					data-bs-toggle="dropdown"
+					aria-haspopup="true"
 					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span className="navbar-toggler-icon"></span>
-				</button>
-				<div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-					<ul className="navbar-nav">
-						<li className="nav-item active">
-							<a className="nav-link" href="#">
-								Home
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								About
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Services
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Contact
-							</a>
-						</li>
-						<li className="nav-item dropdown d-lg-none">
-							<a
-								className="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdownMenuLink"
-								data-bs-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								Menu
-							</a>
-							<div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a className="dropdown-item" href="#">
-									Home
-								</a>
-								<a className="dropdown-item" href="#">
-									About
-								</a>
-								<a className="dropdown-item" href="#">
-									Services
-								</a>
-								<a className="dropdown-item" href="#">
-									Contact
-								</a>
-							</div>
-						</li>
-					</ul>
-				</div>
+				  >
+					Menu
+				  </a>
+				  <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a className="dropdown-item" href="#">
+					  Home
+					</a>
+					<a className="dropdown-item" href="#">
+					  About
+					</a>
+					<a className="dropdown-item" href="#">
+					  Services
+					</a>
+					<a className="dropdown-item" href="#">
+					  Contact
+					</a>
+				  </div>
+				</li>
+			  </ul>
 			</div>
+		  </div>
 		</nav>
-		<header>
-            <div className="container py-4">
-                <div className="p-5 mb-4 bg-body-secondary rounded-3">
-                    <div className="container-fluid py-5">
-                        <h1 className="display-5 fw-bold">Custom jumbotron</h1>
-                        <p className="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                        <button className="btn btn-primary btn-lg" type="button">Example button</button>
-                    </div>
-                </div>
-            </div>
-        </header>	
 		
+	  </div>
+
+  
+
 		
+		<div className="d-flex justify-content-center">
+      <div className="card mr-3" style={{ width: "18rem" }}>
+        <img
+          src="https://placehold.jp/9599db/ffffff/500x325.png"
+          className="card-img-top"
+          alt="..."
+        />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" className="btn btn-primary">
+            Find Out More
+          </a>
+        </div>
+      </div>
+      <div className="card mr-3" style={{ width: "18rem" }}>
+        <img
+          src="https://placehold.jp/9599db/ffffff/500x325.png"
+          className="card-img-top"
+          alt="..."
+        />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" className="btn btn-primary">
+            Find Out More
+          </a>
+        </div>
+      </div>
+      <div className="card mr-3" style={{ width: "18rem" }}>
+        <img
+          src="https://placehold.jp/9599db/ffffff/500x325.png"
+          className="card-img-top"
+          alt="..."
+        />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" className="btn btn-primary">
+            Find Out More
+          </a>
+        </div>
+      </div>
+      <div className="card mr-3" style={{ width: "18rem" }}>
+        <img
+          src="https://placehold.jp/9599db/ffffff/500x325.png"
+          className="card-img-top"
+          alt="..."
+        />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" className="btn btn-primary">
+            Find Out More
+          </a>
+        </div>
+      </div>
+    </div>
+	<footer className="footer footer-expand-lg footer-light bg-secondary bg-subtle">
+		  <div className="container text-center">
+			<span className="text">Established 1993</span>
+			<span>&copy; {new Date().getFullYear()}</span>
+		  </div>
+		</footer>
+
+
 		</>
 	);
 };
 export default Home;
+
