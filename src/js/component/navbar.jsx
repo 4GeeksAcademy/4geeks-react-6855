@@ -6,7 +6,7 @@ return (
     <nav className="navbar navbar-expand-lg navbar-light bg-secondary bg-subtle">
         <div className="container">
             <a className="navbar-brand" href="#">
-            Start Bootstrap
+            <strong>Start Bootstrap</strong>
             </a>
             <button
                 className="navbar-toggler d-lg-none"
